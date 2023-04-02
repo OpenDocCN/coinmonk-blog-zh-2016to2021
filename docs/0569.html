@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Running a ‘headless’ Ganache</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">运行“无头”Ganache</h1>
+<blockquote>原文：<a href="https://medium.com/coinmonks/running-a-headless-ganache-b423324ff69?source=collection_archive---------5-----------------------#2018-05-18">https://medium.com/coinmonks/running-a-headless-ganache-b423324ff69?source=collection_archive---------5-----------------------#2018-05-18</a></blockquote><div><div class="ef hh hi hj hk hl"/><div class="hm hn ho hp hq"><div class=""/><p id="d059" class="pw-post-body-paragraph iq ir ht is b it iu iv iw ix iy iz ja jb jc jd je jf jg jh ji jj jk jl jm jn hm dt translated">最近，<a class="ae jo" href="http://truffleframework.com/" rel="noopener ugc nofollow" target="_blank"> truffle </a>框架转而使用自己的testRPC版本，名为“Ganache”。Ganache有一个很棒的UI的胖客户端在这里找到了<a class="ae jo" href="http://truffleframework.com/ganache/" rel="noopener ugc nofollow" target="_blank"/>。这篇文章的目的是向你介绍它的无头版本发现<a class="ae jo" href="https://github.com/trufflesuite/ganache-cli" rel="noopener ugc nofollow" target="_blank">这里</a>。我们需要一个ganache的无头版本，可以在我们的CI服务器和预提交钩子上运行测试后安装和拆除。</p><blockquote class="jp jq jr"><p id="a12c" class="iq ir js is b it iu iv iw ix iy iz ja jt jc jd je ju jg jh ji jv jk jl jm jn hm dt translated">注意，我们安装了<strong class="is hu"> ganache-cli </strong>作为开发依赖项，并且在package.json中有一个名为<strong class="is hu"> test的脚本。</strong></p></blockquote><figure class="jw jx jy jz fq ka"><div class="bz el l di"><div class="kb kc l"/></div></figure><p id="938b" class="pw-post-body-paragraph iq ir ht is b it iu iv iw ix iy iz ja jb jc jd je jf jg jh ji jj jk jl jm jn hm dt translated">您应该能够使用<a class="ae jo" href="https://github.com/typicode/husky" rel="noopener ugc nofollow" target="_blank"> husky </a>并将“预提交”脚本添加到package.json脚本中，以将该脚本连接到您的提交流中。</p><figure class="jw jx jy jz fq ka"><div class="bz el l di"><div class="kb kc l"/></div></figure><p id="32db" class="pw-post-body-paragraph iq ir ht is b it iu iv iw ix iy iz ja jb jc jd je jf jg jh ji jj jk jl jm jn hm dt translated">我希望这对您有所帮助…</p></div></div>    
+</body>
+</html>
